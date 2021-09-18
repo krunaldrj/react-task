@@ -11,9 +11,7 @@ export const getPhotos = () => async dispatch => {
         })
     }
     catch(e){
-        dispatch( {
-            payload: console.log(e),
-        })
+        
     }
 
 }
